@@ -19,6 +19,7 @@ func send(maxNum int, desc string, ch chan<- int) {
 	}
 	close(ch)
 }
+
 func main() {
 	//创建一个无缓冲区的整数通道
 	var ch10 = make(chan int)
