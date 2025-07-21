@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caf9a878-8e8e-40ee-b829-44edecf8c14c" name="更改" comment="channel and object">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="caf9a878-8e8e-40ee-b829-44edecf8c14c" name="更改" comment="任务2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +52,7 @@
     "Go 构建.go build object.go.executor": "Run",
     "Go 构建.go build person.go.executor": "Run",
     "Go 构建.go build shape.go.executor": "Run",
+    "Go 构建.go build shape_3.go.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -135,7 +134,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="channel and object" />
-    <option name="LAST_COMMIT_MESSAGE" value="channel and object" />
+    <MESSAGE value="锁机制" />
+    <MESSAGE value="任务2" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
