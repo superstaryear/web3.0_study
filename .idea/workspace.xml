@@ -68,6 +68,11 @@
     "run.configurations.included.in.services": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoProject\web3.0_study\task2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Go 构建.go build shape_3.go">
     <configuration name="go build channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="web3.0_study" />
