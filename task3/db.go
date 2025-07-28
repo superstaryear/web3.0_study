@@ -10,8 +10,8 @@ import (
 
 var (
 	username = "root"          //账号
-	password = "E05302"        //密码
-	host     = "102.202.62.62" //数据库地址，可以是Ip或者域名
+	password = "E02222"        //密码
+	host     = "102.202.22.22" //数据库地址，可以是Ip或者域名
 	port     = 3306            //数据库端口
 	Dbname   = "gorm"          //数据库名
 	timeout  = "10s"           //连接超时，10秒
