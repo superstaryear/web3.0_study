@@ -46,5 +46,4 @@ func main() {
 	//DB.Model(&Employee{}).Order("salary desc").Limit(1).Find(&employee)
 	DB.Get(&employee, "select * from employees order by salary desc limit 1")
 	fmt.Println(employee)
-
 }
