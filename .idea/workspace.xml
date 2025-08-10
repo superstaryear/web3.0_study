@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caf9a878-8e8e-40ee-b829-44edecf8c14c" name="更改" comment="任务2" />
+    <list default="true" id="caf9a878-8e8e-40ee-b829-44edecf8c14c" name="更改" comment="任务2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,10 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../GOPATH/pkg/mod/github.com/gin-gonic/gin@v1.10.1/context.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../GOPATH/pkg/mod/github.com/golang-jwt/jwt@v3.2.2+incompatible/token.go" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,42 +51,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go 构建.go build channel.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build lock.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build object.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build person.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build shape.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build shape_3.go.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GoProject/web3.0_study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build channel.go.executor": "Run",
+    "Go 构建.go build db.go sqlTest_1.go.executor": "Run",
+    "Go 构建.go build lock.go.executor": "Run",
+    "Go 构建.go build myblog/cmd/server.executor": "Debug",
+    "Go 构建.go build object.go.executor": "Run",
+    "Go 构建.go build person.go.executor": "Run",
+    "Go 构建.go build shape.go.executor": "Run",
+    "Go 构建.go build shape_3.go.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/weizhen/weizhen-service-external",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "go.vgo"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="GoExtractInterfaceDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/../../GOPATH/pkg/mod/github.com/gin-gonic/gin@v1.10.1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GoProject\web3.0_study\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build shape_3.go">
+  <component name="RunManager" selected="Go 构建.go build myblog/cmd/server">
     <configuration name="go build channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="web3.0_study" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/task4/channel.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build db.go sqlTest_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="web3.0_study" />
+      <working_directory value="$PROJECT_DIR$/task3" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/task3/db.go|$PROJECT_DIR$/task3/sqlTest_1.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build lock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -90,12 +111,13 @@
       <filePath value="$PROJECT_DIR$/task5/lock.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build person.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myblog/cmd/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="web3.0_study" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <working_directory value="$PROJECT_DIR$/task4/myblog" />
+      <kind value="PACKAGE" />
+      <package value="myblog/cmd/server" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/task3/person.go" />
+      <filePath value="$PROJECT_DIR$/task4/myblog/cmd/server/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build shape_3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -106,21 +128,13 @@
       <filePath value="$PROJECT_DIR$/task2/shape_3.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build shape.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="web3.0_study" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/task3/shape.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build myblog/cmd/server" />
+        <item itemvalue="Go 构建.go build db.go sqlTest_1.go" />
         <item itemvalue="Go 构建.go build shape_3.go" />
         <item itemvalue="Go 构建.go build lock.go" />
         <item itemvalue="Go 构建.go build channel.go" />
-        <item itemvalue="Go 构建.go build person.go" />
-        <item itemvalue="Go 构建.go build shape.go" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +150,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="channel and object" />
@@ -144,7 +169,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="任务2" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
 </project>
