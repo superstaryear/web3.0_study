@@ -8,13 +8,13 @@ import (
 )
 
 var (
-	username = "root"      //账号
-	password = "55555"     //密码
-	host     = "555.5.5.5" //数据库地址，可以是Ip或者域名
-	port     = 3306        //数据库端口
-	Dbname   = "gorm"      //数据库名
-	timeout  = "10s"       //连接超时，10秒
-	DB       *gorm.DB      //全局数据库datasource
+	username = "root" //账号
+	password = "XXX"  //密码
+	host     = "XXX"  //数据库地址，可以是Ip或者域名
+	port     = 3306   //数据库端口
+	Dbname   = "gorm" //数据库名
+	timeout  = "10s"  //连接超时，10秒
+	DB       *gorm.DB //全局数据库datasource
 )
 
 /*

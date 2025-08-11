@@ -35,7 +35,7 @@ func JwtHandler(c *gin.Context) {
 		c.Abort()
 		return
 	}
-	tokenStr := strings.Split(authorization, " ")[1]
+	tokenStr := strings.TrimPrefix(c.GetHeader("Authorization"), "Bearer ")
 	if tokenStr == "" {
 		common.Error(c, 500, "token非法")
 		c.Abort()
@@ -61,7 +61,7 @@ func JwtHandler(c *gin.Context) {
 			c.Abort()
 			return
 		}
-		c.Set("userId", claims["userId"])
+		c.Set("userId", uint(claims["userId"].(float64)))
 		c.Set("userName", claims["userName"])
 		c.Next()
 	} else {

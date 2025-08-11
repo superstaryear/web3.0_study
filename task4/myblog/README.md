@@ -26,46 +26,67 @@
 #### **1、注册用户**
 成功情况：
 ![img_1.png](img_1.png)
+
 失败情况：
 ![img_2.png](img_2.png)
 
 #### **2、登录用户，获取token**
 成功情况：
 ![img.png](img.png)
+
 失败情况：
 ![img_3.png](img_3.png)
 
 #### **3、创建文章**
+成功情况：
+![img_5.png](img_5.png)
 
-
-
-
-没有获取到正确的token，会返回错误信息
-
-
+失败情况：
+![img_6.png](img_6.png)
 
 #### **4、获取文章列表**
+成功情况：
+![img_8.png](img_8.png)
+![img_10.png](img_10.png)
 
-
-
+失败情况：
+![img_11.png](img_11.png)
 
 #### **5、获取文章详情**
+成功情况：
+![img_7.png](img_7.png)
 
+失败情况：
+![img_4.png](img_4.png)
 
+#### **6、更新文章**
+成功情况：
+![img_13.png](img_13.png)
 
-#### **6、编辑文章**
-
+失败情况：
+![img_12.png](img_12.png)
 
 #### **7、删除文章，支持批量删除**
+成功情况：
+![img_15.png](img_15.png)
 
-
+失败情况：
+![img_14.png](img_14.png)
 
 #### **8、创建评论**
+成功情况：
+![img_17.png](img_17.png)
 
+失败情况：
+![img_16.png](img_16.png)
 
 
 #### **9、获取文章评论列表**
 
-=
+成功情况：
+![img_18.png](img_18.png)![img_19.png](img_19.png)
+
+失败情况：
+![img_20.png](img_20.png)
 
 
