@@ -30,3 +30,4 @@ time="2025-08-11 23:21:26" level=info msg="HTTP请求" latency=89.6838ms method=
 time="2025-08-11 23:22:23" level=info msg="HTTP请求" latency=41.2498297s method=POST path=/api/comment/list status=200
 time="2025-08-11 23:23:35" level=info msg="HTTP请求" latency=26.9483597s method=POST path=/api/comment/list status=200
 time="2025-08-11 23:23:46" level=info msg="HTTP请求" latency=1.7452982s method=POST path=/api/comment/list status=200
+time="2025-08-11 23:24:55" level=info msg="HTTP请求" latency=3.4153807s method=POST path=/api/comment/list status=200
